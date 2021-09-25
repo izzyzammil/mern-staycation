@@ -103,13 +103,14 @@ export default class BookingForm extends Component {
             {data.duration} {itemDetails.unit}
           </span>
         </h6>
-
         <Button
           className="btn"
           hasShadow
           isPrimary
           isBlock
-          onClick={startBooking}
+          // onClick={startBooking}
+          type="link"
+          href="/checkout"
         >
           Continue to Book
         </Button>

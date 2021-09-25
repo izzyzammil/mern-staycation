@@ -46,7 +46,6 @@ export default function File(props) {
           </div>
         )}
       </div>
-      {HasError && <span className="error-helper">{HasError}</span>}
     </div>
   );
 }
